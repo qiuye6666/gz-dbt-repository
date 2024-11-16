@@ -8,7 +8,9 @@ source as (
 
 renamed as (
 
-    select *
+    select
+        products_id,
+        purchse_price
 
     from source
 
