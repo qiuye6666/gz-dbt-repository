@@ -11,5 +11,7 @@ sources:
       - name: raw_gz_ship
         alias: ship
 
+SELECT *
+FROM {{ source('raw', 'sales') }}
 
   
