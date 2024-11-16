@@ -2,8 +2,14 @@ version: 2
 
 sources: 
   - name: gz_raw_data
+    alias: raw
     tables: 
       - name: raw_gz_sales
+        alias: sales
       - name: raw_gz_product
+        alias: product
       - name: raw_gz_ship
+        alias: ship
 
+
+  
