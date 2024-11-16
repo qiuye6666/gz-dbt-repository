@@ -11,7 +11,7 @@ renamed as (
     select
         date_date,
         orders_id,
-        CAST (ptd_id AS STRING) AS products_id
+        pdt_id AS products_id,
         revenue,
         quantity
 
