@@ -1,0 +1,20 @@
+ version: 2
+
+ sources:
+   - name: raw
+     schema: gz_raw_data
+     tables:
+       - name: ship
+         identifier: raw_gz_ship
+         description: logistics cost of selling products 
+         columns:
+           - name: orders_id
+             description: id of orders
+           - name: shipping_fee
+             description: the cost of shipping the products
+           - name: shipping_fee_1
+             description: the cost of shipping the products
+           - name: logcost
+             description: logistics cost 
+           - name: ship_cost
+             description: cost of shipping 
