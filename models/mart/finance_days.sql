@@ -1,9 +1,4 @@
-{{ config(
-    materialized='table',
-    full_refresh=True
-) }}
 
-{{ config(materialized='view') }}
 
 
 SELECT
