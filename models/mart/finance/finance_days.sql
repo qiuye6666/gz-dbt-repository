@@ -1,6 +1,5 @@
 
 
-
 SELECT
     date_date
     ,COUNT(orders_id) AS Total_number_of_transactions
